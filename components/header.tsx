@@ -50,7 +50,7 @@ const Header = () => {
   const currentLib = LIBRARY_INFO[library];
 
   return (
-    <header className="mx-auto mt-[25px] w-full max-w-[1292px] px-4 font-mono">
+    <header className="mx-auto mt-[25px] w-full max-w-7xl px-4 font-mono">
       <div className="flex h-full w-full justify-between gap-4">
         <div className="relative mr-auto flex h-[42px] items-center gap-2 font-sans text-base max-[524px]:translate-y-[-2px] min-[395px]:text-xl">
           <Link
