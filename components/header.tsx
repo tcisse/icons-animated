@@ -52,24 +52,25 @@ const Header = () => {
   return (
     <header className="mx-auto mt-[25px] w-full max-w-[1292px] px-4 font-mono">
       <div className="flex h-full w-full justify-between gap-4">
-        <Link
-          href="/"
-          aria-label="Icons Animated - Home"
-          tabIndex={0}
-          className="focus-visible:outline-primary relative mr-auto flex h-[42px] items-center gap-2 font-sans text-base focus-within:outline-offset-4 focus-visible:outline-1 max-[524px]:translate-y-[-2px] min-[395px]:text-xl"
-        >
-          <Logo className="text-primary w-6 shrink-0 data-[type='christmas']:translate-y-[-4px] min-[395px]:w-8" />
-          <span className="shrink-0">icons-animated</span>
+        <div className="relative mr-auto flex h-[42px] items-center gap-2 font-sans text-base max-[524px]:translate-y-[-2px] min-[395px]:text-xl">
+          <Link
+            href="/"
+            aria-label="Icons Animated - Home"
+            tabIndex={0}
+            className="focus-visible:outline-primary flex items-center gap-2 focus-within:outline-offset-4 focus-visible:outline-1"
+          >
+            <Logo className="text-primary w-6 shrink-0 data-[type='christmas']:translate-y-[-4px] min-[395px]:w-8" />
+            <span className="shrink-0">icons-animated</span>
+          </Link>
           <a
             href={currentLib.link}
             target="_blank"
             rel="noopener noreferrer"
             className="text-primary absolute right-0 -bottom-2 text-sm italic hover:underline"
-            onClick={(e) => e.stopPropagation()}
           >
             {currentLib.name}
           </a>
-        </Link>
+        </div>
         <div className="ml-auto flex w-full flex-1 flex-wrap-reverse items-center justify-end gap-2">
           <LibrarySelector />
           <a
