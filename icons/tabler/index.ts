@@ -3,10 +3,15 @@ import { TablerArrowLeftIcon } from './arrow-left';
 import { TablerArrowRightIcon } from './arrow-right';
 import { TablerArrowUpIcon } from './arrow-up';
 import { TablerBellIcon } from './bell';
+import { TablerChevronDownIcon } from './chevron-down';
+import { TablerChevronLeftIcon } from './chevron-left';
+import { TablerChevronRightIcon } from './chevron-right';
+import { TablerChevronUpIcon } from './chevron-up';
 import { TablerCalendarIcon } from './calendar';
 import { TablerCheckIcon } from './check';
 import { TablerDownloadIcon } from './download';
 import { TablerEyeIcon } from './eye';
+import { TablerFilterIcon } from './filter';
 import { TablerHeartIcon } from './heart';
 import { TablerHomeIcon } from './home';
 import { TablerLockIcon } from './lock';
@@ -14,10 +19,14 @@ import { TablerMailIcon } from './mail';
 import { TablerMenuIcon } from './menu';
 import { TablerPencilIcon } from './pencil';
 import { TablerPlusIcon } from './plus';
+import { TablerRefreshIcon } from './refresh';
+import { TablerSaveIcon } from './save';
 import { TablerSearchIcon } from './search';
 import { TablerSettingsIcon } from './settings';
+import { TablerShareIcon } from './share';
 import { TablerStarIcon } from './star';
 import { TablerTrashIcon } from './trash';
+import { TablerUploadIcon } from './upload';
 import { TablerUserIcon } from './user';
 import { TablerXIcon } from './x';
 
@@ -48,6 +57,26 @@ const TABLER_ICON_LIST = [
     keywords: ['bell', 'notification', 'alert', 'ring', 'alarm'],
   },
   {
+    name: 'chevron-down',
+    icon: TablerChevronDownIcon,
+    keywords: ['chevron', 'down', 'direction', 'south', 'bottom', 'collapse'],
+  },
+  {
+    name: 'chevron-left',
+    icon: TablerChevronLeftIcon,
+    keywords: ['chevron', 'left', 'direction', 'west', 'back', 'previous'],
+  },
+  {
+    name: 'chevron-right',
+    icon: TablerChevronRightIcon,
+    keywords: ['chevron', 'right', 'direction', 'east', 'forward', 'next'],
+  },
+  {
+    name: 'chevron-up',
+    icon: TablerChevronUpIcon,
+    keywords: ['chevron', 'up', 'direction', 'north', 'top', 'expand'],
+  },
+  {
     name: 'calendar',
     icon: TablerCalendarIcon,
     keywords: ['calendar', 'date', 'schedule', 'event', 'day'],
@@ -66,6 +95,11 @@ const TABLER_ICON_LIST = [
     name: 'eye',
     icon: TablerEyeIcon,
     keywords: ['eye', 'view', 'see', 'visible', 'show', 'watch'],
+  },
+  {
+    name: 'filter',
+    icon: TablerFilterIcon,
+    keywords: ['filter', 'sort', 'funnel', 'refine', 'search'],
   },
   {
     name: 'heart',
@@ -103,6 +137,16 @@ const TABLER_ICON_LIST = [
     keywords: ['plus', 'add', 'new', 'create', 'increase'],
   },
   {
+    name: 'refresh',
+    icon: TablerRefreshIcon,
+    keywords: ['refresh', 'reload', 'reload', 'update', 'sync', 'rotate'],
+  },
+  {
+    name: 'save',
+    icon: TablerSaveIcon,
+    keywords: ['save', 'store', 'disk', 'floppy', 'preserve'],
+  },
+  {
     name: 'search',
     icon: TablerSearchIcon,
     keywords: ['search', 'find', 'magnifying glass', 'lookup', 'query'],
@@ -113,6 +157,11 @@ const TABLER_ICON_LIST = [
     keywords: ['settings', 'gear', 'cog', 'preferences', 'config'],
   },
   {
+    name: 'share',
+    icon: TablerShareIcon,
+    keywords: ['share', 'send', 'social', 'network', 'distribute'],
+  },
+  {
     name: 'star',
     icon: TablerStarIcon,
     keywords: ['star', 'favorite', 'bookmark', 'rate', 'rating'],
@@ -121,6 +170,11 @@ const TABLER_ICON_LIST = [
     name: 'trash',
     icon: TablerTrashIcon,
     keywords: ['trash', 'delete', 'remove', 'bin', 'garbage'],
+  },
+  {
+    name: 'upload',
+    icon: TablerUploadIcon,
+    keywords: ['upload', 'send', 'arrow', 'put', 'import'],
   },
   {
     name: 'user',
@@ -143,8 +197,13 @@ export {
   TablerBellIcon,
   TablerCalendarIcon,
   TablerCheckIcon,
+  TablerChevronDownIcon,
+  TablerChevronLeftIcon,
+  TablerChevronRightIcon,
+  TablerChevronUpIcon,
   TablerDownloadIcon,
   TablerEyeIcon,
+  TablerFilterIcon,
   TablerHeartIcon,
   TablerHomeIcon,
   TablerLockIcon,
@@ -152,10 +211,14 @@ export {
   TablerMenuIcon,
   TablerPencilIcon,
   TablerPlusIcon,
+  TablerRefreshIcon,
+  TablerSaveIcon,
   TablerSearchIcon,
   TablerSettingsIcon,
+  TablerShareIcon,
   TablerStarIcon,
   TablerTrashIcon,
+  TablerUploadIcon,
   TablerUserIcon,
   TablerXIcon,
 };
