@@ -5,9 +5,14 @@ import { PhosphorArrowUpIcon } from './arrow-up';
 import { PhosphorBellIcon } from './bell';
 import { PhosphorCalendarIcon } from './calendar';
 import { PhosphorCheckIcon } from './check';
+import { PhosphorChevronDownIcon } from './chevron-down';
+import { PhosphorChevronLeftIcon } from './chevron-left';
+import { PhosphorChevronRightIcon } from './chevron-right';
+import { PhosphorChevronUpIcon } from './chevron-up';
 import { PhosphorDownloadIcon } from './download';
 import { PhosphorEnvelopeIcon } from './envelope';
 import { PhosphorEyeIcon } from './eye';
+import { PhosphorFilterIcon } from './filter';
 import { PhosphorGearIcon } from './gear';
 import { PhosphorHeartIcon } from './heart';
 import { PhosphorHouseIcon } from './house';
@@ -15,9 +20,13 @@ import { PhosphorListIcon } from './list';
 import { PhosphorLockIcon } from './lock';
 import { PhosphorPencilIcon } from './pencil';
 import { PhosphorPlusIcon } from './plus';
+import { PhosphorRefreshIcon } from './refresh';
+import { PhosphorSaveIcon } from './save';
 import { PhosphorSearchIcon } from './search';
+import { PhosphorShareIcon } from './share';
 import { PhosphorStarIcon } from './star';
 import { PhosphorTrashIcon } from './trash';
+import { PhosphorUploadIcon } from './upload';
 import { PhosphorUserIcon } from './user';
 import { PhosphorXIcon } from './x';
 
@@ -48,6 +57,26 @@ const PHOSPHOR_ICON_LIST = [
     keywords: ['bell', 'notification', 'alert', 'ring', 'alarm'],
   },
   {
+    name: 'chevron-down',
+    icon: PhosphorChevronDownIcon,
+    keywords: ['chevron', 'down', 'direction', 'south', 'bottom', 'collapse'],
+  },
+  {
+    name: 'chevron-left',
+    icon: PhosphorChevronLeftIcon,
+    keywords: ['chevron', 'left', 'direction', 'west', 'back', 'previous'],
+  },
+  {
+    name: 'chevron-right',
+    icon: PhosphorChevronRightIcon,
+    keywords: ['chevron', 'right', 'direction', 'east', 'forward', 'next'],
+  },
+  {
+    name: 'chevron-up',
+    icon: PhosphorChevronUpIcon,
+    keywords: ['chevron', 'up', 'direction', 'north', 'top', 'expand'],
+  },
+  {
     name: 'calendar',
     icon: PhosphorCalendarIcon,
     keywords: ['calendar', 'date', 'schedule', 'event', 'day'],
@@ -66,6 +95,11 @@ const PHOSPHOR_ICON_LIST = [
     name: 'envelope',
     icon: PhosphorEnvelopeIcon,
     keywords: ['envelope', 'mail', 'email', 'message', 'letter'],
+  },
+  {
+    name: 'filter',
+    icon: PhosphorFilterIcon,
+    keywords: ['filter', 'sort', 'funnel', 'refine', 'search'],
   },
   {
     name: 'eye',
@@ -108,9 +142,24 @@ const PHOSPHOR_ICON_LIST = [
     keywords: ['plus', 'add', 'new', 'create', 'increase'],
   },
   {
+    name: 'refresh',
+    icon: PhosphorRefreshIcon,
+    keywords: ['refresh', 'reload', 'reload', 'update', 'sync', 'rotate'],
+  },
+  {
+    name: 'save',
+    icon: PhosphorSaveIcon,
+    keywords: ['save', 'store', 'disk', 'floppy', 'preserve'],
+  },
+  {
     name: 'search',
     icon: PhosphorSearchIcon,
     keywords: ['search', 'find', 'magnifying glass', 'lookup', 'query'],
+  },
+  {
+    name: 'share',
+    icon: PhosphorShareIcon,
+    keywords: ['share', 'send', 'social', 'network', 'distribute'],
   },
   {
     name: 'star',
@@ -121,6 +170,11 @@ const PHOSPHOR_ICON_LIST = [
     name: 'trash',
     icon: PhosphorTrashIcon,
     keywords: ['trash', 'delete', 'remove', 'bin', 'garbage'],
+  },
+  {
+    name: 'upload',
+    icon: PhosphorUploadIcon,
+    keywords: ['upload', 'send', 'arrow', 'put', 'import'],
   },
   {
     name: 'user',
@@ -143,9 +197,14 @@ export {
   PhosphorBellIcon,
   PhosphorCalendarIcon,
   PhosphorCheckIcon,
+  PhosphorChevronDownIcon,
+  PhosphorChevronLeftIcon,
+  PhosphorChevronRightIcon,
+  PhosphorChevronUpIcon,
   PhosphorDownloadIcon,
   PhosphorEnvelopeIcon,
   PhosphorEyeIcon,
+  PhosphorFilterIcon,
   PhosphorGearIcon,
   PhosphorHeartIcon,
   PhosphorHouseIcon,
@@ -153,9 +212,13 @@ export {
   PhosphorLockIcon,
   PhosphorPencilIcon,
   PhosphorPlusIcon,
+  PhosphorRefreshIcon,
+  PhosphorSaveIcon,
   PhosphorSearchIcon,
+  PhosphorShareIcon,
   PhosphorStarIcon,
   PhosphorTrashIcon,
+  PhosphorUploadIcon,
   PhosphorUserIcon,
   PhosphorXIcon,
 };
